@@ -1,0 +1,37 @@
+=== PGLS Residual Longevity Model Summary ===
+Generalized least squares fit by maximum likelihood
+  Model: model 
+  Data: data 
+       AIC      BIC    logLik
+  712.4276 729.2617 -353.2138
+
+Correlation Structure: corPagel
+ Formula: ~spp 
+ Parameter estimate(s):
+   lambda 
+0.9429126 
+Variance function:
+ Structure: fixed weights
+ Formula: ~vf 
+
+Coefficients:
+                   Value Std.Error  t-value p-value
+(Intercept)    0.6053585 0.3806676 1.590255  0.1119
+logtenBodyMass 0.1527799 0.0179339 8.519073  0.0000
+
+ Correlation: 
+               (Intr)
+logtenBodyMass -0.14 
+
+Standardized residuals:
+        Min          Q1         Med          Q3         Max 
+-2.58740233 -0.32571323 -0.02398755  0.21323723  1.11691315 
+
+Residual standard error: 0.001853161 
+Degrees of freedom: 2021 total; 2019 residual
+
+Estimated Pagel lambda:
+   lambda 
+0.9429126 
+
+Computation time (minutes): 205.49 
