@@ -90,7 +90,7 @@ asr_table <- data.frame(
 
 # Here’s what each part means:
 #   
-#   $ace: the estimated ancestral states (this is what I want)
+#   $ace: the estimated ancestral states
 #   $sig2: estimated Brownian variance
 #   $logLik: the log-likelihood of the model
 #   $model: model type ("BM" here, consistent with λ = 0.94 scaling)
@@ -109,6 +109,7 @@ title("Ancestral Reconstruction of Residual Longevity in Mammals")
 dev.off()
 
 cat("Saved:\n  • ASR_residual_longevity_nodes.xlsx\n  • ASR_ResidualLongevity_Tree.pdf\n")
+
 
 
 
