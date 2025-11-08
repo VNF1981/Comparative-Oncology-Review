@@ -69,7 +69,7 @@ tre_lambda <- rescaleTree(tre, 0.94)
 asr_resid <- anc.ML(tre_lambda, resid_vector)
 str(asr_resid)
 
-# 3- The slowest methof from ape
+# 3- The slowest method from ape
 #asr_resid <- ace(resid_vector, tre, type = "continuous", method = "REML")
 
 
@@ -109,6 +109,7 @@ title("Ancestral Reconstruction of Residual Longevity in Mammals")
 dev.off()
 
 cat("Saved:\n  • ASR_residual_longevity_nodes.xlsx\n  • ASR_ResidualLongevity_Tree.pdf\n")
+
 
 
 
